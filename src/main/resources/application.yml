@@ -1,0 +1,13 @@
+test:
+  url: 123
+
+customserver:
+  host: 192.168.0.1
+
+---
+
+spring:
+  profiles: dev
+
+customserver:
+  host: 127.0.0.1
